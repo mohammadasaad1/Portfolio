@@ -69,12 +69,12 @@ li{
 }
 .main{
        
-    padding: 5rem 0;
+   
     background-color: #191C24;
     color: #fff;
     border-radius: 3px;
-    margin-top: 8rem;
-   
+    margin-top: 20vh;
+   height: 80vh;
     
 }
 
@@ -121,7 +121,7 @@ main section{
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    
+
     margin-top: 3rem;
     margin-bottom: 3rem;
 
@@ -131,4 +131,96 @@ main section{
     background-color: #52648d;
     transform: scale(1.009);
     transition: 0.3s;
+}
+
+.get-know-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.get-know-me h1{
+    font-weight: bold;
+    font-size: 2rem
+    letter-spacing: 0.1rem;
+
+}
+.get-know-me p{
+    font-size: 1.5rem;
+    width: 700px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    line-height: 29px;
+    color: #FFFFFF;
+    font-size: medium;
+}
+.get-know-me p a{
+    color: #7D96CB;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.get-know-me-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+.contact-anchor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 350px;
+    height: 65px;
+    background-color: #4B5E87;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.my-skills{
+    margin-top:10rem;
+
+}
+.my-skills h1{
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem 0 ;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 53px;
+    background-color: #4B5E87;
+    border-radius: 4px;
+    padding: 1rem;
+    color: #fff;  
+}
+.skill p{
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 500;
 }
