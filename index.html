@@ -8,7 +8,8 @@
   </head>
   <body>
     <div class="header">
-      <div class="container nav">
+      <nav class="nav container">
+        <div class="webicon">Portfolio</div>
         <ul class="nav-links">
           <li>
             <a href="#">
@@ -17,24 +18,27 @@
             >
           </li>
           <li>
-            <a href="#">
+            <a href="#knowMe">
               <img src="icons/about.svg" alt="about" />
               About</a
             >
           </li>
           <li>
-            <a href="#">
+            <a href="#projectsi">
               <img src="icons/Frame.svg" alt="prijects" />
               Projects</a
             >
           </li>
           <li>
-            <a href="#">
+            <a href="#contactMe">
               <img src="icons/Frame (1).svg" alt="contact" />
               Contact</a
             >
           </li>
         </ul>
+        <div class="burger" onclick="toggleMenu()">
+          ☰
+        </nav>
       </div>
     </div>
     <div class="container">
@@ -53,11 +57,11 @@
             alt="portolio-picture"
           />
         </section>
-        <form action="#contactMe">
+        <form action="#knowMe" class="frm-know-me">
     <button class="btn-more">MORE ABOUT ME</button>
 </form>
       </main>
-      <section class="get-know-me">
+      <section class="get-know-me" id="knowMe">
         <h1>Get to know me!</h1>
         <div class="get-know-me-text">
           <p>
@@ -79,7 +83,7 @@
             experience then don't hesitate to contact me.
           </p>
         </div>
-        <a href="#" class="contact-anchor">CONTACT ME</a>
+        <a href="#contactMe" class="contact-anchor">CONTACT ME</a>
       </section>
       <section class="my-skills">
         <h1>My Skills</h1>
@@ -116,7 +120,7 @@
           </div>
         </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="projectsi">
         <h1>Projects</h1>
         <div class="pro-card">
           <div class="project">
@@ -165,14 +169,14 @@
       <section class="contact" id="contactMe">
         <h1>Contact Me !</h1>
         <div class="contact-form">
-          <form action="">
+          <form action="" method="post">
             <div class="contact-name" >
               <label for="contact-name">Name</label>
               <input type="text" placeholder="Name" id="contact-name" />
             </div>
             <div class="contact-name" >
               <label for="contact-email">Email</label>
-              <input type="text" placeholder="Email" id="contact-email" />
+              <input type="email" placeholder="Email" id="contact-email" />
             </div>
             <div class="txt-area">
               <label for="contact-message">Message</label>
@@ -194,7 +198,6 @@
           <div class="left">
               <h3>MOHAMMAD AS’AD</h3>
               <div>
-
                 <p>Computer Engineer, Frontend Developer</p>
                 <p>I design and code beautifully simple things, Problem Solver, and I love what I do.</p>
               </div>
@@ -213,5 +216,6 @@
         <p class="copyright">© Copyright 2025. Made by MOHAMMAD AS’AD</p>
       </div>
   </footer>
+  <script src="main.js"></script>
   </body>
 </html>
