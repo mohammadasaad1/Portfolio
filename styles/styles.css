@@ -7,7 +7,7 @@
 ::-webkit-scrollbar {
   width: 8px;
 }
-
+/* pull */
 ::-webkit-scrollbar-track {
   background: #3e3e41;
   border-radius: 10px;
@@ -37,6 +37,7 @@ body, html {
   /* pull */
   overflow-x: hidden;
 }
+
 
 p, h1, h2, h3 {
   word-wrap: break-word;
